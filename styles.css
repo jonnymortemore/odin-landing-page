@@ -13,6 +13,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: var(--dark-background);
+}
+
+main {
+    background-color: var(--main-text-color);
 }
 
 header {
@@ -27,7 +32,7 @@ header {
     justify-content: space-around;
     list-style-type: none;
     padding-top: 15px;
-    gap: 8px;
+    gap: 16px;
     align-items: baseline;
     width: 80%;
     margin: auto;
@@ -62,8 +67,10 @@ header {
 }
 
 .hero-image {
-    width: 300px;
-    height: auto;
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
     
 }
 
@@ -87,6 +94,7 @@ header button {
 
 main {
     background-color: var(--);
+    padding: 50px 0px;
 }
 
 .random-information {
@@ -96,6 +104,7 @@ main {
 }
 
 .random-information h2 {
+    margin-top: 0;
     color: var(--info-header-text-color);
     font-weight: 900;
     font-size: 36px;
