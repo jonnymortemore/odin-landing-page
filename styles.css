@@ -1,0 +1,184 @@
+:root {
+    --dark-background: #1F2937;
+    --quote-background: #E5E7EB;
+    --button-color: #3882F6;
+    --main-text-color: #F9FAF8;
+    --info-header-text-color: #1F2937;
+    --quote-text-color: #1F2937;
+    --secondary-text-color: #E5E7EB;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: var(--dark-background);
+    width: 100%;
+
+}
+
+.header-links {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 15px;
+    gap: 8px;
+    align-items: baseline;
+    width: 80%;
+    margin: auto;
+}
+
+.header-logo {
+    color: var(--main-text-color);
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.secondary-text {
+    color: var(--secondary-text-color);
+    font-size:  18px;
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    margin: auto;
+    padding: 100px 50px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero p {
+    width: 400px
+}
+
+.hero-image {
+    width: 300px;
+    height: auto;
+    
+}
+
+.hero-text {
+    color: var(--main-text-color);
+    width: 200px;
+    font-weight: 900;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 0px solid transparent;
+}
+
+header button {
+    background-color: var(--button-color);
+    color: var(--main-text-color);
+
+}
+
+main {
+    background-color: var(--);
+}
+
+.random-information {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+
+.random-information h2 {
+    color: var(--info-header-text-color);
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.image-line {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.image-line-section {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+.image-line img {
+    width: 150px;
+    height: auto;
+    border: 5px solid var(--button-color);
+    border-radius: 10px;
+}
+
+.image-line p {
+    width: 150px;
+}
+
+.quote-container {
+    background-color: var(--quote-background);
+    padding: 100px 150px 100px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quote {
+    font-size: 36px;
+    color: var(--quote-text-color);
+    font-style: italic;
+    font-weight: light;
+    max-width: 1000px;
+}
+
+.quote-author {
+    align-self: end;
+    color: var(--info-header-text-color);
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.action-container {
+    background-color: var(--button-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 50px auto;
+
+}
+
+.action {
+    color: var(--main-text-color);
+    
+}
+
+.action-container button {
+    border: solid 2px var(--main-text-color);
+    color: var(--main-text-color);
+    background-color: var(--button-color);
+}
+
+footer {
+    background-color: var(--dark-background);
+    color: var(--secondary-text-color);
+    padding: 50px 20px;
+    width: 100%;
+    text-align: center;
+}
